@@ -1,5 +1,9 @@
-<resource name="jdbc/sw-uni" auth="Container" type="javax.sql.DataSource">
- <param name="username" value="sewatech" />
- <param name="password" value="swpwd" />
- <param name="url" value="jdbc:cloudbees://sw-uni" />
-</resource>
+<?xml version="1.0"?>
+<cloudbees-web-app xmlns="http://www.cloudbees.com/xml/webapp/1">
+	<appid>sewatech/tutjsh</appid>
+	<resource name="jdbc/sw-uni" auth="Container" type="javax.sql.DataSource">
+		<param name="username" value="sewatech" />
+		<param name="password" value="swpwd" />
+		<param name="url" value="jdbc:cloudbees://sw-uni" />
+	</resource>
+</cloudbees-web-app>
